@@ -1,0 +1,169 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: "raleway"
+	overflow-x: hidden
+	input, textarea
+		border: #666 1px solid
+		outline: none!important
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+	button 
+		outline: none!important
+.form-control
+	outline: none!important
+	&:focus
+		 box-shadow: none
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+a 
+	color: black
+	&:hover
+		text-decoration: none
+		color: black
+
+.sticky 
+	position: fixed
+	width: 100%
+  left: 0
+  top: 0
+  z-index: 1000
+
+.ad
+	width: 100%
+	// height: 250px
+	height: 90px
+	background-color: #BCE3F9
+.nav_container
+	margin: 0
+	position: -webkit-sticky
+	padding: 0
+	margin-top: 5px
+	background-color: $blue 
+	.navbar
+		.logo
+			width: 150px
+			height: 50px
+			.img_logo 
+				box-sizing: border-box
+				width: 100%
+		.navbar-nav
+			.nav-item
+				padding-right: 15px
+				a
+				 color: white
+				 &:hover
+				 	text-decoration: none
+		.searching
+			background-color: white
+			border-radius: 5px
+			padding: 1px
+			display: flex
+			justify-content: space-around
+			input 
+				border: none
+				background-color: transparent
+				width: 0px
+				transition: width 0.4s ease-in-out
+				&:focus
+					width: 220px
+			input[type=search] 
+			-webkit-appearance: textfield
+			-webkit-box-sizing: content-box
+			font-size: 100%
+			
+			button
+				border: none
+				background-color: transparent
+				outline: none!important
+				margin: 0
+				cursor: pointer
+				.search
+					width: 22px
+					height: 22px
+					font-weight: 400
+					background-color: transparent
+section 
+	margin-top: 2%
+	.main 
+		// background-color: #BCE3F9
+		max-height: 400px
+		img
+			position: relative
+			width: 600px
+			height: 400px
+		.text 
+			position: absolute
+			background-color: rgba(0, 0, 0, .8)
+			width: 70%
+			max-height: 80%
+			color: white
+			display: inline
+			left: 15px
+			top: 0
+			padding: 20px
+			box-sizing: border-box
+	.date
+			color: #777
+			margin-bottom: 3px
+	.context		
+		.header
+			font-weight: 600
+			font-size: 1.7em				
+			color: white
+		.info
+			margin-top: 10px
+			line-height: 1.2em
+			color: #ccc	
+	.title
+		font-size: 1em
+		font-weight: 600
+
+	.right 
+		// background-color: #BCE3F9
+		padding: 0px 20px
+		.main_news
+			.main_news_header
+				color: #777
+				font-size: 1.5em
+				font-weight: 600 			
+			.block_small
+				margin-bottom: 10px
+				border-bottom: 1px solid #A1A1A1
+				.main_news_img
+					width: 100px
+					height: 100px
+					margin: 5px 13px 10px 0px
+				.title
+					font-size: 1em
+					font-weight: 600
+	.second_news_container
+		margin-top: 6%
+
+
+@import "media" // Always at the end
