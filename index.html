@@ -8,8 +8,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
 	<meta property="og:image" content="path/to/image.jpg">
-	<!-- <link rel="icon" href="img/favicon/favicon.ico"> -->
-	<!-- <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png"> -->
 	<meta name="theme-color" content="#000">
 	<link rel="stylesheet" href="css/main.min.css">
 </head>
@@ -23,7 +21,17 @@
 				<a href="#" class="navbar-brand logo"><img class="img_logo img-fluid" src="img/logo.png" alt="logo"/></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    				<img src="img/bars.svg" alt="" width="25px">
-  			</button>
+        </button>
+        <form class="form-inline searching ml-auto display_none_nav">
+            <input class="" type="search" placeholder="Search" aria-label="Search" title="Search">
+          </form>
+          <div class="dropdown display_none_nav">
+            <a class="dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">РУ</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09">
+              <a class="dropdown-item" > ENG</a>
+              <a class="dropdown-item" > УЗ</a>
+            </div>
+          </div>
   			<div id="navbarSupportedContent" class="collapse navbar-collapse" >
   				<ul class="navbar-nav m-auto">
   					<li class="nav-item"><a href="#">Узбекистан</a></li>
@@ -34,284 +42,302 @@
   					<li class="nav-item"><a href="#">Культура</a></li>
   					<li class="nav-item"><a href="#">Спорт</a></li>
   					<li class="nav-item"><a href="#">Туризм</a></li>
-  				</ul>
-  				<form class="form-inline searching ml-auto">
-			      <input class="" type="search" placeholder="Search" aria-label="Search" title="Search">
-			    </form>
-         <div class="dropdown">
-         	<a class="dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">РУ</a>
-         	<div class="dropdown-menu" aria-labelledby="dropdown09">
-            <a class="dropdown-item" > ENG</a>
-            <a class="dropdown-item" > УЗ</a>
+  				</ul>  				
+         </div>
+        <!-- <div class="madia"> -->
+          <form class="form-inline searching ml-auto display_nav">
+            <input class="" type="search" placeholder="Search" aria-label="Search" title="Search">
+          </form>
+          <div class="dropdown display_nav">
+            <a class="dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">РУ</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09">
+              <a class="dropdown-item" > ENG</a>
+              <a class="dropdown-item" > УЗ</a>
+            </div>
           </div>
-         </div>
-         </div>
+        <!-- </div> -->
 			</nav>			
 		</div>
-	</div>
-	<div class="container">
-		<section class="main_container">
-			<div class="row justify-content-between">
-				<div class="col-xl-7 col-lg-7 col-md-8 col-12">
-					<div class="main">
-						<a href="#"><img src="img/dollar.jpg" alt="" class="img-fluid">
-						<div class="text">
-							<div class="context">
-								<h3 class="header">Банки освоили иностранные кредита на $1,04 млрд. (инфографика)</h3>
-								<p class="date">07/02/2019</p>
-							</div>
-						</div>
-						</a>
-					</div>
-					<section class="second_news_container">
-						<div class=" col-xl-6 col-lg-6 col-md-6 col-12 rem_padding">
-							<div class="">
-							<a href="#" class="" >
-								<p class="date">12/10/2019</p>
-								<h3 class="title text_wrap">Министр по развитию информационных технологий и коммуникаций принял главного операционного директора Группы компаний VEON</h3>
-								<img  class="col-12 p-0 img-fluid" src="img/mitc.jpg" alt="">
-							</a>
-						</div>
-						</div>
-						<div class="col-xl-6 col-lg-6 col-md-6 col-12 rem_padding">
-							<a href="#">
-								<p class="date">12/10/2019</p>
-								<h3 class="title text_wrap">Министр по развитию информационных технологий и коммуникаций принял</h3>
-								<img  class="col-12 p-0 img-fluid" src="img/mitc.jpg" alt="">
-							</a>
-						</div>
-					</section>					
-					<div class="col-12 ad"></div>
-					<div class="sub_content">
-						<h3 class="news_header">Узбекистан</h3>
-						<div class="d-flex_uzb">
-							<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">
-								<img class="img-fluid" src="img/yuksalish.jpg" alt="">
-								<h3 class="title mt-1 text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-								<p class="summary text_wrap_sum">	Ташкент, Узбекистан (UzDaily.uz) -- Министерство юстиции Узбекистана зарегистрировало Общенациональное движение «Юксалиш». Об этом сообщает пресс-служба ведомство.</p>	
-								<div class=""><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">	
-								<div class="block_xs">
-									<img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="sub_content">
-						<h3 class="news_header">Экономика</h3>
-						<div class="d-flex_uzb">
-							<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">
-								<img class="img-fluid" src="img/uzbek.jpg" alt="">
-								<h3 class="title mt-1 text_wrap">Узбекистан и B2Gold обсудили вопросы реализации совместных проектов</h3>
-								<p class="summary text_wrap_sum">	B2Gold – ведущая золотодобывающая компания Канады, по итогам 2018 года доведшая объем производства до 1 млн. унций.</p>	
-								<div class=""><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">	
-								<div class="block_xs">
-									<img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="sub_content">
-						<h3 class="news_header">Финансы</h3>
-						<div class="d-flex_uzb">
-							<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">
-								<img class="img-fluid" src="img/cbu.jpg" alt="">
-								<h3 class="title mt-1 text_wrap">ЦБ сохранил ставку рефинансирования на уровне 16% годовых</h3>
-								<p class="summary text_wrap_sum">Данное решение основано на необходимости сохранения антиинфляционной денежно-кредитной политики, поддержания положительных реальных процентных ставок и снижения инфляционных ожиданий.</p>	
-								<div class=""><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">	
-								<div class="block_xs">
-									<img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-								<div class="block_xs">
-									<img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
-									<div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
-									<p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-5 col-lg-5 col-md-4 col-12">
-					<div class="right">
-						<div class="main_news">
-							<h3 class="news_header">Главные новости</h3>
-							<div class="block_small justify-content-between">
-								<img class="img-fluid main_news_img" src="img/bukhara.jpg" alt="">
-								<div>
-									<a href="#	"><h3 class="title text_wrap">Узбекистан занял 5 место в рейтинге самых безопасных стран для туристов-одиночек</h3></a>
-									<div class="mt-2"><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
-								</div>
-							</div>
-							<div class="block_small justify-content-between">
-								<img class="img-fluid main_news_img" src="img/bukhara.jpg" alt="">
-								<div>
-									<a href="	#"><h3 class="title text_wrap">Узбекистан занял 5 место в рейтинге самых безопасных стран для туристов-одиночек</h3></a>
-									<p class="date mt-2">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p>
-								</div>
-							</div>
-							<div class="block_small ustify-content-between">
-								<img class="img-fluid main_news_img" src="img/bukhara.jpg" alt="">
-								<div>
-									<a href="	#"><h3 class="title text_wrap">Узбекистан занял 5 место в рейтинге самых безопасных стран для туристов-одиночек</h3></a>
-									<p class="date mt-2">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p>
-								</div>
-							</div>
-							<div class="block_small justify-content-between">
-								<img class="img-fluid main_news_img" src="img/bukhara.jpg" alt="">
-								<div>
-									<a href="	#"><h3 class="title text_wrap">Узбекистан занял 5 место в рейтинге самых безопасных стран для туристов-одиночек</h3></a>
-									<p class="date mt-2">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p>
-								</div>
-							</div>
-							<div class="ad_sec"></div>
-						</div>
-						<div class="currency">
-							<h3 class="news_header">Курсы валют ЦБ от <span class="current_date">22.01.2019</span></h3>
-							<div class="currency_table">
-								<table>
-									<tr class="">
-								    <td class="">
-								    	<a href="curview-id-5.html"> &#36; 1</a>
-										</td>
-								    <td align="center" class="">8378.18 </td>
-								    <td align="center" class=""><span class="increase">+0.263%</span></td>
-								  </tr>
-								  <tr class="">
-								    <td><a href="curview-id-15.html">&#128; 1</a>
-										</td>
-								    <td align="center"> 9518.45 </td>
-								    <td align="center"><span class="decrease">-0.664%</span></td>
-								  </tr>
-								  <tr class="">
-								    <td class=""><a href="curview-id-18.html">&#8381;  1</a>
-										</td>
-								    <td class="" align="center">126.33</td>
-								    <td class="" align="center"><span class="increase">+1.088%</span></td>
-								  </tr>
-								   <tr class="more_tr">
-								    <td colspan="3"><a href="currency.html" class="more">Другие валюты</a></td>
-								  </tr>
-								</table>
-							</div>							
-						</div>
-						<div class="ad_sec"></div>
-						<div class="photo_of_day">
-							<h3 class="news_header">Фото дня</h3>
-							<div class="cur_photo">
-								<img src="img/Photo.jpg" class= "img-fluid photo_of_day_img" alt="">
-								<h3 class="title mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo modi mollitia ducimus numquam, quod voluptates molestias.</h3>
-								<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt soluta culpa eaque in tenetur dicta ullam dolore assumenda fugiat quis architecto sunt placeat facilis cupiditate doloremque vel, atque quaerat officiis.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-	<div class="conatiner-fluid m-0 p-0">
-		<footer class="footer">
-			<div class="container">
-				<div class="footer_margin">
-				<div class="row justify-content-between">
-						<div class="col-xl-4 col-lg-4 col-md-4 col-12">
-							<a href="#" class="navbar-brand logo"><img class="img_logo img-fluid" src="img/logo.png" alt="logo"/></a>
-							<ul class="">
-								<li class="">Свидетельство о регистрации Интернет </li>
-								<li class="">СМИ № 0601 от 28.10.2009 г.</li>
-								<li class="">Учредитель: ЧП DAILY MEDIA</li>
-								<li class="">Главред: Умаров Анвар Абрарджанович</li>
-								<li class="">Адрес: Узбекистан, 100180, г. Ташкент, Юнусабад 12-27-73</li>
-							</ul>
-						</div>
-						<div class="col-xl-4 col-lg-4 col-md-4 col-12">
-							<h3 class="footer_header">О Нас</h3>
-							<ul>
-								<li><a href="#">О проекте</a></li>
-								<li><a href="#">Правила </a></li>
-								<li><a href="#">Конфиденциальность </a></li>
-								<li><a href="#">Реклама </a></li>
-								<li><a href="#">Контакты</a></li>
-							</ul>
-							</div>
-						<div class="col-xl-4 col-lg-4 col-md-4 col-12">
-							<h3 class="footer_header">Социальные страницы </h3>
-							<ul>
-								<li><a href="#" class="d-flex">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" width="18" height="18"><path fill="#fff" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg>
-								<p>Facebook</p></a></li>
-								<li><a href="#" class="d-flex">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18" height="18"><path fill="#fff" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-								<p>Twitter</p> </a></li>
-								<li><a href="#" class="d-flex">
-									<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 640 512"><path fill="#fff" d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"/></svg>
-								<p>Google+</p></a></li>
-								<li><a href="#" class="d-flex">
-									<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 448 512"><path fill="#fff" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/></svg>
-								<p>Telegram</p></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-xl-8 col-lg-8 col-md-10 col-12 m-auto">
-						<div class="d-flex">	
-						<p class="text-center">	&copy; 2007-2019 UzDaily.uz. Все права защищены.Свидетельство о регистрации Интернет СМИ № 0601 от 28.10.2009 г. Все услуги лицензированы, товары сертифицированы.</p>
-						<div class="age_rest"><p>18+</p></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
+  </div>
+  <div class="container">
+    <section>
+      <div class="row justify-content-between">
+        <div class="col-xl-7 col-lg-7 col-md-8 col-12">
+          <div class="main">
+            <a href="#">
+                <div class="main_img" style="	background-image:  linear-gradient(rgba(0, 0 , 0, 0),rgba(0, 0 , 0, 0.6)), url(../img/dollar.jpg)">
+                  <div class="text">
+                    <div class="context">
+                      <h3 class="header">Банки освоили иностранные кредита на $1,04 млрд. (инфографика)</h3>
+                      <p class="date">07/02/2019</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-4 col-12">
+          <div class="right_news">
+            <h3 class="news_header">Главные новости</h3>
+            <div class="block_small justify-content-between">
+              <img class="img-fluid right_news_img" src="img/bukhara.jpg" alt="">
+              <div class="sec_text">
+                <a href="#"><h3 class="title text_wrap">Узбекистан занял 5 место в рейтинге самых</h3></a>
+                <div class="mt-2"><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+              </div>
+            </div>
+            <div class="block_small justify-content-between">
+              <img class="img-fluid right_news_img" src="img/bukhara.jpg" alt="">
+              <div class="sec_text">
+                <a href="	#"><h3 class="title text_wrap">Узбекистан занял 5 место в рейтинге самых безопасных стран для туристов-одиночек</h3></a>
+                <p class="date mt-2">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p>
+              </div>
+            </div>
+            <div class="block_small ustify-content-between without_border">
+              <img class="img-fluid right_news_img" src="img/bukhara.jpg" alt="">
+              <div class="sec_text">
+                <a href="#"><h3 class="title text_wrap">Узбекистан занял 5 место в рейтинге самых безопасных стран для туристов-одиночек</h3></a>
+                <p class="date mt-2">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>   
+  </div>
+  <div class="container">
+    <section >
+      <div class="row justify-content-between second_new_content">
+        <div class="col-xl-7 col-lg-7 col-md-8 col-12">
+          <div class="dis_flex">          
+            <div class="col-xl-6 col-lg-6 col-md-6 col-12 padding_left">
+              <a href="#" class="" >
+                <p class="date">12/10/2019</p>
+                <h3 class="title text_wrap">Министр по развитию информационных технологий и коммуникаций принял главного операционного директора Группы компаний VEON</h3>
+                <div class="img_sec"><img  class="img_sec img-fluid" src="img/mitc.jpg" alt=""></div>
+              </a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-12 padding-right">
+              <a href="#" class="" >
+                <p class="date">12/10/2019</p>
+                <h3 class="title text_wrap">Министр по развитию информационных технологий и коммуникаций принял главного операционного директора Группы компаний VEON</h3>
+                <div class="img_sec"><img  class="img_sec img-fluid" src="img/mitc.jpg" alt=""></div>
+              </a>
+            </div>
+          </div>  
+          <div class="ad mt-4">            
+          </div>             
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-4 col-12">
+          <div class="right_news">
+            <div class="ad_media text-center">
+              <img src="img/photo_2019.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+<div class="container">
+  <section>
+    <div class="row justify-content-between">
+     <div class="colxl-7 col-lg-7 col-md-8 col-12">
+       <div class="sub_content">
+         <h3 class="news_header">Узбекистан</h3>
+         <div class="dis_flex">
+           <div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">
+             <img class="img-fluid" src="img/yuksalish.jpg" alt="">
+             <h3 class="title mt-1 text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+             <p class="summary text_wrap_sum"> Ташкент, Узбекистан (UzDaily.uz) -- Министерство юстиции Узбекистана зарегистрировало Общенациональное движение «Юксалиш». Об этом сообщает пресс-служба ведомство.</p> 
+             <div class=""><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+           </div>
+           <div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">  
+             <div class="block_xs">
+               <img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
+               <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+               <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+             </div>
+             <div class="block_xs">
+               <img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
+               <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+               <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+             </div>
+             <div class="block_xs">
+               <img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
+               <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+               <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+             </div>
+             <div class="block_xs">
+               <img src="img/yuksalish.jpg" class="img-fluid img_xs" alt="">
+               <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+               <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+             </div>
+           </div>
+         </div>
+       </div>
+      <div class="sub_content">
+       <h3 class="news_header">Экономика</h3>
+       <div class="dis_flex">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">
+         <img class="img-fluid" src="img/uzbek.jpg" alt="">
+         <h3 class="title mt-1 text_wrap">Узбекистан и B2Gold обсудили вопросы реализации совместных проектов</h3>
+         <p class="summary text_wrap_sum"> B2Gold – ведущая золотодобывающая компания Канады, по итогам 2018 года доведшая объем производства до 1 млн. унций.</p> 
+         <div class=""><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1"> 
+         <div class="block_xs">
+          <img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+         <div class="block_xs">
+          <img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+         <div class="block_xs">
+          <img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+         <div class="block_xs">
+          <img src="img/uzbek.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="sub_content">
+       <h3 class="news_header">Финансы</h3>
+       <div class="dis_flex">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1">
+         <img class="img-fluid" src="img/cbu.jpg" alt="">
+         <h3 class="title mt-1 text_wrap">ЦБ сохранил ставку рефинансирования на уровне 16% годовых</h3>
+         <p class="summary text_wrap_sum">Данное решение основано на необходимости сохранения антиинфляционной денежно-кредитной политики, поддержания положительных реальных процентных ставок и снижения инфляционных ожиданий.</p> 
+         <div class=""><p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-12 mt-1"> 
+         <div class="block_xs">
+          <img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+         <div class="block_xs">
+          <img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+         <div class="block_xs">
+          <img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+         <div class="block_xs">
+          <img src="img/cbu.jpg" class="img-fluid img_xs" alt="">
+          <div class=""><h3 class="title text_wrap">Минюст зарегистрировал Общенациональное движение «Юксалиш»</h3>
+          <p class="date">02/07/2019<a href="#" class="read_more d-flex">read more<svg class="svgIcon-use" width="19" height="19"><path d="M7.6 5.138L12.03 9.5 7.6 13.862l-.554-.554L10.854 9.5 7.046 5.692" fill-rule="evenodd"></path></svg></a></p></div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    <div class="col-xl-5 col-lg-5 col-md-4 col-12 padding_box">
+      <div class="currency">
+        <h3 class="news_header">Курсы валют ЦБ от <span class="current_date">22.01.2019</span></h3>
+        <div class="currency_table">
+          <table>
+            <tr class="">
+               <td class="">
+                <a href="curview-id-5.html"> &#36; 1</a>
+             </td>
+               <td align="center" class="">8378.18 </td>
+               <td align="center" class=""><span class="increase">+0.263%</span></td>
+             </tr>
+             <tr class="">
+               <td><a href="curview-id-15.html">&#128; 1</a>
+             </td>
+               <td align="center"> 9518.45 </td>
+               <td align="center"><span class="decrease">-0.664%</span></td>
+             </tr>
+             <tr class="">
+               <td class=""><a href="curview-id-18.html">&#8381;  1</a>
+             </td>
+               <td class="" align="center">126.33</td>
+               <td class="" align="center"><span class="increase">+1.088%</span></td>
+             </tr>
+           </table>
+        </div>       
+      </div>
+      <div class="ad_media text-center mt-5">
+        <img src="img/photo_2019.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="photo_of_day">
+        <h3 class="news_header">Фото дня</h3>
+        <div class="cur_photo">
+          <img src="img/Photo.jpg" class= "img-fluid photo_of_day_img" alt="">
+          <h3 class="title mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo modi mollitia ducimus numquam, quod voluptates molestias.</h3>
+          <p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt soluta culpa eaque in tenetur dicta ullam dolore assumenda fugiat quis architecto sunt placeat facilis cupiditate doloremque vel, atque quaerat officiis.</p>
+        </div>
+      </div>
+     </div>
+    </div>
+  </section>
+</div>
+<div class="conatiner-fluid m-0 p-0">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_margin">
+      <div class="row justify-content-between">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+            <a href="#" class="navbar-brand logo"><img class="img_logo img-fluid" src="img/logo.png" alt="logo"/></a>
+            <ul class="">
+              <li class="">Свидетельство о регистрации Интернет </li>
+              <li class="">СМИ № 0601 от 28.10.2009 г.</li>
+              <li class="">Учредитель: ЧП DAILY MEDIA</li>
+              <li class="">Главред: Умаров Анвар Абрарджанович</li>
+              <li class="">Адрес: Узбекистан, 100180, г. Ташкент, Юнусабад 12-27-73</li>
+            </ul>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+            <h3 class="footer_header">О Нас</h3>
+            <ul>
+              <li><a href="#">О проекте</a></li>
+              <li><a href="#">Правила </a></li>
+              <li><a href="#">Конфиденциальность </a></li>
+              <li><a href="#">Реклама </a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+            <h3 class="footer_header">Социальные страницы </h3>
+            <ul>
+              <li><a href="#" class="d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" width="18" height="18"><path fill="#fff" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg>
+              <p>Facebook</p></a></li>
+              <li><a href="#" class="d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18" height="18"><path fill="#fff" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+              <p>Twitter</p> </a></li>
+              <li><a href="#" class="d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 640 512"><path fill="#fff" d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"/></svg>
+              <p>Google+</p></a></li>
+              <li><a href="#" class="d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 448 512"><path fill="#fff" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/></svg>
+              <p>Telegram</p></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-10 col-12 m-auto">
+          <div class="d-flex">  
+          <p class="text-center"> &copy; 2007-2019 UzDaily.uz. Все права защищены.Свидетельство о регистрации Интернет СМИ № 0601 от 28.10.2009 г. Все услуги лицензированы, товары сертифицированы.</p>
+          <div class="age_rest"><p>18+</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+	
 	<script src="js/scripts.min.js"></script>
 
 </body>
